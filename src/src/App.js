@@ -8,5 +8,6 @@ function App() {
     </div>
   );
 }
+console.log("omg");
 
 export default App;
