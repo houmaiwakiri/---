@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 export const Footer = () => {
   return (
@@ -11,14 +10,10 @@ export const Footer = () => {
           <div className="col l4 offset-l2 s12">
             <ul>
               <li>
-                <Link href="/">
                   <a className="grey-text text-lighten-3">質問一覧</a>
-                </Link>
               </li>
               <li>
-                <Link href="/register">
                   <a className="grey-text text-lighten-3">質問作成</a>
-                </Link>
               </li>
             </ul>
           </div>

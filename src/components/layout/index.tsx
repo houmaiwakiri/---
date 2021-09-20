@@ -1,6 +1,6 @@
 import { VFC } from "react";
-import { Header } from "/components/layout/header";
-import { Footer } from "/components/layout/footer";
+import { Header } from "/Users/user/OneDrive/ドキュメント/tonari/src/components/layout/header";
+import { Footer } from "/Users/user/OneDrive/ドキュメント/tonari/src/components/layout/footer";
 type Props = {
   children: React.ReactNode;
 };
