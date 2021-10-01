@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "build",
+    "site": "tonari-57b19",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
