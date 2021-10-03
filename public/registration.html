@@ -17,9 +17,9 @@
   
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <li><a href="index.html" class="nav-link px-2 text-secondary">トップ</a></li>
-            <li><a href="serch.html" class="nav-link px-2 text-white">園を探す</a></li>
+            <li><a href="serch.html" class="nav-link px-2 text-white">施設を探す</a></li>
             <li><a href="question.html" class="nav-link px-2 text-white">質問</a></li>
-            <li><a href="registration.html" class="nav-link px-2 text-white">園情報の登録</a></li>
+            <li><a href="registration.html" class="nav-link px-2 text-white">施設情報の登録</a></li>
             <li><a href="detail.html" class="nav-link px-2 text-white">となりとは</a></li>
           </ul>
           <button type="button" class="btn btn-warning"><a href="login.html">ログイン</a></button>
@@ -29,52 +29,64 @@
       </div>
     </header>
 
-    <form class="row g-3">
+    <div class="main container">
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">施設情報の登録</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+            </div>
+            <p>こちらに入力された内容は、確認が済みましたらメールにて連絡させていただきます。その後、施設のページが反映されていることをご確認ください。不具合などございましたら、メールでご返信いただくか、お問い合わせページから報告してください。</p>
+            <a href="question.html" class="icon-link">
+              よくある質問はこちら
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <form class="row g-3 container">
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Email</label>
         <input type="email" class="form-control" id="inputEmail4">
       </div>
       <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Password</label>
+        <label for="inputPassword4" class="form-label">パスワード</label>
         <input type="password" class="form-control" id="inputPassword4">
       </div>
       <div class="col-12">
-        <label for="inputAddress" class="form-label">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        <label for="inputAddress" class="form-label">住所1</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="都道府県、市区町村">
       </div>
       <div class="col-12">
-        <label for="inputAddress2" class="form-label">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        <label for="inputAddress2" class="form-label">住所2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="番地、アパート名、部屋番号">
       </div>
       <div class="col-md-6">
-        <label for="inputCity" class="form-label">City</label>
+        <label for="inputCity" class="form-label">施設種別</label>
         <input type="text" class="form-control" id="inputCity">
       </div>
       <div class="col-md-4">
-        <label for="inputState" class="form-label">State</label>
+        <label for="inputState" class="form-label">保育施設名</label>
         <select id="inputState" class="form-select">
-          <option selected>Choose...</option>
-          <option>...</option>
+          <option selected>保育園</option>
+          <option>幼稚園</option>
+          <option>その他</option>
         </select>
-      </div>
-      <div class="col-md-2">
-        <label for="inputZip" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
       </div>
       <div class="col-12">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="gridCheck">
           <label class="form-check-label" for="gridCheck">
-            Check me out
+            入力内容を確認しました
           </label>
         </div>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn btn-primary">登録申請</button>
       </div>
-    </form>
-
-
+      </form>
+    </div>
 
 
     <footer class="py-3 my-4">
