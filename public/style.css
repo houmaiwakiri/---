@@ -12,19 +12,16 @@ header {
 }
 .title {
   font-size: 40px;
-  color: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  color: linear-gradient(45deg, #85ffbd 0%, #fffd70 100%);
 }
 .serch-title {
   text-align: center;
-}
-.area {
-  padding: 1px;
 }
 #area {
   background-color: orange;
   box-shadow: 3px 3px 5px#e0480ce0;
   margin: 0px 2px;
-  border: solid 1px #532100;
+  border: solid 1px #d3550d;
 }
 .home {
   display: flex;
@@ -36,8 +33,13 @@ header {
 .home-main {
   color: transparent;
   -webkit-text-stroke: 1px #1d5c04;
-  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffd70 100%);
   text-align: center;
+}
+.home-main:hover {
+  cursor: pointer;
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
 }
 /*bootstrap*/
 *:before,
@@ -122,7 +124,7 @@ header {
 
 /* Services Section */
 .services {
-  background: #131313;
+  background: linear-gradient(45deg, #85ffbd 0%, #fffd70 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
