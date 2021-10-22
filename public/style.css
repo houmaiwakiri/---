@@ -3,6 +3,9 @@
 * {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 header {
   background-color: #9cfa9c;
   font-weight: bolder;
@@ -14,12 +17,21 @@ header {
 .serch-title {
   text-align: center;
 }
+.area {
+  padding: 1px;
+}
 #area {
   background-color: orange;
+  box-shadow: 3px 3px 5px#e0480ce0;
+  margin: 0px 2px;
+  border: solid 1px #532100;
 }
 .home {
   display: flex;
   justify-content: center;
+}
+.home-top {
+  padding: 20px;
 }
 .home-main {
   color: transparent;
