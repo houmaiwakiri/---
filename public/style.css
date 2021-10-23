@@ -39,8 +39,9 @@ header {
 .home-main:hover {
   cursor: pointer;
   transform: scale(1.075);
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
+
 /*bootstrap*/
 *:before,
 *:after {
@@ -131,18 +132,6 @@ header {
   align-items: center;
   height: 100%;
   padding: 10rem 0;
-}
-
-.services h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  margin-bottom: 5rem;
-  font-size: 2.5rem;
 }
 
 .services__wrapper {
