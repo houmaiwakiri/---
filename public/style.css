@@ -16,6 +16,8 @@ header {
 }
 .serch-title {
   text-align: center;
+  font-weight: bolder;
+  margin: 20px 0px;
 }
 #area {
   background-color: orange;
@@ -40,6 +42,25 @@ header {
   cursor: pointer;
   transform: scale(1.075);
   transition: 0.2s ease-in;
+}
+
+.serch-list {
+  font-weight: bolder;
+  font-size: 25px;
+  color: transparent;
+  cursor: pointer;
+  -webkit-text-stroke: 1px #1d5c04;
+  color: transparent;
+  -webkit-text-stroke: 1px#1d5c04;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffd70 100%);
+  text-align: center;
+}
+.serch-list:hover {
+  cursor: pointer;
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  box-shadow: 5px 5px #2a8f0c;
+  transition: all 0.35s;
 }
 
 /*bootstrap*/
