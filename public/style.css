@@ -45,9 +45,9 @@ header {
 }
 
 .serch-list {
+  border: #131313 1px solid;
   font-weight: bolder;
   font-size: 25px;
-  color: transparent;
   cursor: pointer;
   -webkit-text-stroke: 1px #1d5c04;
   color: transparent;
@@ -57,6 +57,7 @@ header {
 }
 .serch-list:hover {
   cursor: pointer;
+  color: transparent;
   transform: scale(1.075);
   transition: 0.2s ease-in;
   box-shadow: 5px 5px #2a8f0c;
